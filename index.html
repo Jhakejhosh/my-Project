@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoOfficeSpace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <section id="Home">
+        <!---------nav-bar------------->
+        <nav>
+            <div class="logo">GOoffice</div>
+            <!-----------------menu--------->
+            <ul>
+                <li id="menu-list"><a href="#Home">Home</a></li>
+                <li id="menu-list"><a href="#Workspace">Workspace</a></li>
+                <li id="menu-list"><a href="#Service">Service</a></li>
+                <li id="menu-list"><a href="#Events">Events</a></li>
+                <li id="menu-list"><a href="#Reviews">Reviews</a></li>
+                <li id="menu-list"><a href="#Contact">Contact Us</a></li>
+            </ul>
+            <!-------registration----------------->
+            <div class="register">
+                <button id="login" onclick="logIn()">Log In</button>
+                <button id="signup" onclick="signUp()">Sign Up</button>
+            </div>
+            <div class="menu-bar" id="menu-bar">
+                <i class="fas fa-align-justify"></i>
+            </div>
+        </nav>
+        <!--------------menu-content-------------->
+        <div id="menu-content">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Workspace">Workspace</a></li>
+                <li><a href="#Service">Service</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#Reviews">Reviews</a></li>
+                <li><a href="#Contact">Contact Us</a></li> 
+            </ul>
+            <div class="menu-register">
+                <button id="menu-login" onclick="logIn()">Log In</button>
+                <button id="menu-signup" onclick="signUp()">Sign Up</button>
+            </div>
+            <div id="menu-close">&times;</div> 
+        </div>
+        <!------login-content----------->
+        <div id="modal">
+            <div id="login-content">
+                <label class="wrapper">
+                    <input type="input" class="textfield"/>
+                    <span class="placeholder">Username</span>
+                </label>
+                <label class="wrapper">
+                    <input type="password" class="textfield"/>
+                    <span class="placeholder">Password</span>
+                </label>
+                <input type="Submit" placeholder="Send" class="send"> 
+                <div id="login-close">&times;</div>   
+            </div>
+        </div>
+        <!------introduction----------->
+        <div class="home-intro">
+            <div class="intro-text">
+                <div class="intro">
+                    <p>Introducing</p>
+                    <p></p>
+                </div>
+                <h2 class="active"> <b>Revolutionary </b>co-working space to realize 
+                your innovation</h2>
+            </div>
+            <h4>In GOoffice, we spearhead new initiatives and provide 
+                mentorship to a new startup and help grow their oppurtunities
+                in key local, region and global markets.
+            </h4>
+        </div>
+        <!-----------home-section------------------->
+        <div class="home-section">
+            <div class="find-space">
+                <h1>Find your space now</h1>
+                <div class="section-space">
+                    <small>Location</small>
+                    <p>Lagos, Nigeria</p>
+                </div>
+                <div class="section-space">
+                    <small>Type</small>
+                    <p>Private Office</p>
+                </div>
+                <div class="section-space">
+                    <small>Date</small>
+                    <p>16th July, 2021</p>
+                </div>
+                <button><a href="#">FIND MY SPACE</a></button>
+            </div>
+            <img src="images/viewspace.jpg" width="75%">
+        </div>
+    </section>
+    <!-------------workspace------------->
+    <section id="Workspace">
+        <div class="space">
+            <!-------spacetext------------->
+            <div class="space-text">
+                <h1>Our Spaces</h1>
+                <p>Our space is designed to give you different experience when working<br> with 
+                    your team or personally
+                </p>
+                <div class="arrow-direct">
+                    <i class="fas fa-arrow-left" id="arrow-left"></i>
+                    <i class="fas fa-arrow-right" id="arrow-right"></i>
+                </div>
+            </div>
+            <!-------spaceimages----------------->
+            <div class="image-space">
+                <div id="image-slide">
+                    <div class="space-img" id="space-img">
+                        <div class="space-img-show">
+                            <h2>Private Space</h2><br>
+                            <p>Comfortable space, Full speed wifi, Free 
+                                coffee & snacks and many more
+                            </p>
+                        </div>
+                        <img src="images/callreal.jpg" width="320px">
+                        <button><p class="direct">></p></button>
+                    </div>
+                    <div class="space-img" id="space-img">
+                        <div class="space-img-show">
+                            <h2>Private Space</h2><br>
+                            <p>Comfortable space, Full speed wifi, Free 
+                                coffee & snacks and many more
+                            </p>
+                        </div>
+                        <img src="images/stairs.jpg" width="320px">
+                        <button><p class="direct">></p></button>
+                    </div>
+                    <div class="space-img" id="space-img">
+                        <div class="space-img-show">
+                            <h2>Private Space</h2><br>
+                            <p>Comfortable space, Full speed wifi, Free 
+                                coffee & snacks and many more
+                            </p>
+                        </div>
+                        <img src="images/clothing.jpg" width="320px">
+                        <button><p class="direct">></p></button>
+                    </div>
+                    <div class="space-img" id="space-img">
+                        <div class="space-img-show">
+                            <h2>Private Space</h2><br>
+                            <p>Comfortable space, Full speed wifi, Free 
+                                coffee & snacks and many more
+                            </p>
+                        </div>
+                        <img src="images/gift.jpg" width="320px">
+                        <button><p class="direct">></p></button>
+                    </div>
+                    <div class="space-img" id="space-img">
+                        <div class="space-img-show">
+                            <h2>Private Space</h2><br>
+                            <p>Comfortable space, Full speed wifi, Free 
+                                coffee & snacks and many more
+                            </p>
+                        </div>
+                        <img src="images/happy.jpg" width="320px">
+                        <button><p class="direct">></p></button>
+                    </div>
+                </div>
+            </div>
+            <!-----------myspace-content---------------->
+            <div class="myspace-content">
+                <div class="space-icon">
+                    <div class="list-icon">
+                        <div class="each-icon">
+                            <i class="fas fa-briefcase"></i>
+                            <h1>500+ <br><small>Meeting rooms</small></h1>
+                        </div>
+                        <div class="each-icon">
+                            <i class="fas fa-flag"></i>
+                            <h1>60+ <br><small>Countries</small></h1>
+                        </div>
+                        <div class="each-icon">
+                            <i class="fas fa-user"></i>
+                            <h1>5K+ <br><small>Startup mentors</small></h1>
+                        </div>
+                    </div>
+                    <div class="list-icon">
+                        <div class="each-icon">
+                            <i class="fas fa-store"></i>
+                            <h1>100+ <br><small>Event spaces</small></h1>
+                        </div>
+                        <div class="each-icon">
+                            <i class="fas fa-wifi"></i>
+                            <h1>500 Mbps <br><small>Internet speed</small></h1>
+                        </div>
+                        <div class="each-icon">
+                            <i class="fas fa-users"></i>
+                            <h1>200+ <br><small>Communities inside</small></h1>
+                        </div>
+                    </div>
+                </div>
+                <!---------------text-space------>
+                <div class="text-space">
+                    <div class="inner-intro">
+                        <p>Why GOoffice</p>
+                        <p></p>
+                    </div>
+                    <h1>We revolutionize your workspace</h1>
+                    <p>With a decade of insights and expertise, we've decided to reimagine 
+                        co-working space designed to help a new startup grow up and realize 
+                        their ideas so they can give a positive impacts on many people
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------service-------------------->
+    <section id="Service">
+        <div class="service-container">
+            <!-------service-text------------->
+            <div class="service-title">
+                <p>Our Facilities</p>
+                <p></p>
+            </div>
+            <h1>All facilities are designed to meet <br> all your needs</h1>
+            <!------service slider------------->
+            <div class="service-slider">
+                <ul>
+                    <li class="space main">Spacious area</li>
+                    <li class="space">Comfortable spaces</li>
+                    <li class="space">Fashion space</li>
+                    <li class="space">Vegetable cafe</li>
+                    <li class="space">Shopping room</li>
+                </ul>
+                <div class="service-images">
+                    <div id="service-slider">
+                        <img src="images/space3.jpg" width="100%" id="img-slide">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------gallery---------->
+        <div class="gallery">
+             <!-------gallery-text------------->
+            <div class="gallery-text">
+                <div class="gallery-title">
+                    <p>GOoffice gallery</p>
+                    <p></p>
+                </div>
+                <h1>Immersive beautiful <br> co-working space gallery</h1>
+                <div class="gallery-direct">
+                    <i class="fas fa-arrow-left" id="left-direct"></i>
+                    <i class="fas fa-arrow-right" id="right-direct"></i>
+                </div>
+            </div>
+             <!----gallery slider---------------->
+            <div class="gallery-slider">
+                <div id="gallery-slider">
+                    <img src="images/callreal.jpg" width="350px" height="400px">
+                    <img src="images/gift.jpg" width="350px" height="400px">
+                    <img src="images/happy.jpg" width="350px" height="400px">
+                    <img src="images/goodday.jpg" width="350px" height="400px">
+                    <img src="images/clothing.jpg" width="350px" height="400px">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------review-section------------->
+    <section id="Reviews">
+        <div class="review-container">
+            <div class="review-text">
+                <div class="review-fonts">
+                    <div class="review-title">
+                        <p>Reviews</p>
+                        <p></p>
+                    </div>
+                    <h1>What our customers <br> are saying</h1>
+                </div>
+                <div class="review-direct">
+                    <i class="fas fa-arrow-left" id="left-review"></i>
+                    <i class="fas fa-arrow-right" id="right-review"></i>
+                </div>
+            </div>
+            <!-----reviews--------------->
+            <div class="reviews">
+                <div id="reviews">
+                    <div class="review-cards">
+                        <p>Our team has been working at GOoffice for almost 2 months 
+                            because our office still closed. During working at GOoffice,
+                            we feel a new experience,
+                            we can feel working with a beautiful, modern and comfortable space. And 
+                            cozy cafe with high-speed internet in there, thank you our team.
+                        </p>
+                        <div class="review-profile">
+                            <img src="images/lavish.jpg" width="70px" height="70px">
+                            <div class="profile-text">
+                                <p>Serena Williams</p><br>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-cards">
+                        <p>Our team has been working at GOoffice for almost 2 months 
+                            because our office still closed. During working at GOoffice,
+                            we feel a new experience,
+                            we can feel working with a beautiful, modern and comfortable space. And 
+                            cozy cafe with high-speed internet in there, thank you our team.
+                        </p>
+                        <div class="review-profile">
+                            <img src="images/lavish.jpg" width="70px" height="70px">
+                            <div class="profile-text">
+                                <p>Serena Williams</p><br>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-cards">
+                        <p>Our team has been working at GOoffice for almost 2 months 
+                            because our office still closed. During working at GOoffice,
+                            we feel a new experience,
+                            we can feel working with a beautiful, modern and comfortable space. And 
+                            cozy cafe with high-speed internet in there, thank you our team.
+                        </p>
+                        <div class="review-profile">
+                            <img src="images/lavish.jpg" width="70px" height="70px">
+                            <div class="profile-text">
+                                <p>Serena Williams</p><br>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-cards">
+                        <p>Our team has been working at GOoffice for almost 2 months 
+                            because our office still closed. During working at GOoffice,
+                            we feel a new experience,
+                            we can feel working with a beautiful, modern and comfortable space. And 
+                            cozy cafe with high-speed internet in there, thank you our team.
+                        </p>
+                        <div class="review-profile">
+                            <img src="images/lavish.jpg" width="70px" height="70px">
+                            <div class="profile-text">
+                                <p>Serena Williams</p><br>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-cards">
+                        <p>Our team has been working at GOoffice for almost 2 months 
+                            because our office still closed. During working at GOoffice,
+                            we feel a new experience,
+                            we can feel working with a beautiful, modern and comfortable space. And 
+                            cozy cafe with high-speed internet in there, thank you our team.
+                        </p>
+                        <div class="review-profile">
+                            <img src="images/lavish.jpg" width="70px" height="70px">
+                            <div class="profile-text">
+                                <p>Serena Williams</p><br>
+                                <p>UI/UX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------membership---------------->
+    <section id="Events">
+        <div class="members-container">
+            <div class="members-text">
+                <div class="members-title">
+                    <p>Become a member</p>
+                    <p></p>
+                </div>
+                <h1>Ready to try different work experience now ?</h1>
+                <p>Get he best working experience that you never feel before</p>
+                <button><a href="#Home">SIGN UP NOW</a></button>
+            </div>
+            <div class="members-image">
+                <div class="rectangle"></div>
+                <img src="images/car-967387_1280.png" width="600px">
+            </div>
+        </div>
+    </section>
+    <!----footer--------------->
+    <section id="Contact">
+        <div class="contact-container">
+            <div class="contact-title">
+                <h1>GOoffice</h1>
+                <p>We offer comfortable spaces, cozy cafe, high-speed 
+                    internet,spacious parking area and many more for 
+                    your best workspaces and meeting
+                </p><br>
+                <div class="contact-icons">
+                    <img src="images/instagram (1).png" width="20px">
+                    <img src="images/youtube (1).png" width="20px">
+                    <img src="images/facebook.png" width="20px">
+                </div>
+            </div>
+            <div class="footer-list">
+                <p>Company</p>
+                <ul>
+                    <li>About Us</li>
+                    <li>Pricing</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <p>Support</p>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Privacy Policy</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div class="footer-list">
+                <p>Contact Us</p>
+                <ul>
+                    <li><i class="fas fa-envelope"> GOoffice@gmail.com</i></li>
+                    <li><i class="fas fa-map-marker"> Yaba, Lagos State, Nigeria</i></li>
+                    <li><i class="fas fa-phone"> +2349138681490</i></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <div class="moveup">
+        <a href="#Home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>
